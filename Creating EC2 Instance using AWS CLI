@@ -10,3 +10,5 @@ Install and configure the AWS CLI.
 Set your IAM permissions to allow for Amazon EC2 access.
 Create a key pair and a security group.
 Select an Amazon Machine Image (AMI) and note the AMI ID.
+
+login to this ec2 instance: ssh -i <path of key pair> ubuntu@<public ip address of instance>
